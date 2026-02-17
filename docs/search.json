@@ -1,0 +1,54 @@
+[
+  {
+    "objectID": "draft-data-doc.html",
+    "href": "draft-data-doc.html",
+    "title": "Appendix A — Draft: Data Documentation",
+    "section": "",
+    "text": "A.0.1 Who collected the data:\nThe U.S. Bureau of Labor Statistics (BLS), with help from state labor agencies (“IIF Databases : U.s. Bureau of Labor Statistics” n.d.).\n\n\nA.0.2 Why the data was collected:\nTo track nonfatal workplace injuries and illnesses nationally and help identify safety trends.\n\n\nA.0.3 What the data is about:\nWork related injuries, illnesses, and fatalities.Rates by industry, injury type, and severity.\n\n\nA.0.4 When the data was collected:\nAnnually since 1972 and the most recent summary covers 2024.\n\n\nA.0.5 Where the data was collected:\nFrom all across the 50 states and a sample of ~200,000 employers.\n\n\nA.0.6 How the data was collected:\nEmployers are legally required to log injuries and report to BLS.\n\n\nA.0.7 Structure of the data:\nSummary tables by industry and detailed case tables by event type and worker characteristics.\n\n\nA.0.8 Formatting decisions:\nRates are per 100 full time equivalent (FTE) workers in summary tables and per 10,000 in detailed tables. Industry is coded by NAICS and occupation by SOC. Cells with fewer than 15 cases are blank.\n\n\nA.0.9 Data validation/quality control:\nBLS runs consistency checks and publishes error estimates. Under reporting or failing to report by employers is a known limitation.\n\n\nA.0.10 License:\nU.S. government public domain.\n\n\nA.0.11 Suggested analysis methods:\nCompare injury and fall rates between manufacturing and office industries, use days lost for severity and rate ratios for risk.\n\n\nA.0.12 Measurement instruments:\nOSHA Forms 300/300A/301; BLS’s OIICS coding system; NAICS and SOC classification systems.\n\n\n\n\n“IIF Databases : U.s. Bureau of Labor Statistics.” n.d. Accessed February 17, 2026. https://www.bls.gov/iif/data.htm.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Draft: Data Documentation</span>"
+    ]
+  },
+  {
+    "objectID": "draft-data-doc.html#references",
+    "href": "draft-data-doc.html#references",
+    "title": "Appendix A — Draft: Data Documentation",
+    "section": "A.1 References",
+    "text": "A.1 References\n\n\n\n\n“IIF Databases : U.s. Bureau of Labor Statistics.” n.d. Accessed February 17, 2026. https://www.bls.gov/iif/data.htm.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Draft: Data Documentation</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "1  Introduction",
+    "section": "",
+    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "2  Summary",
+    "section": "",
+    "text": "In summary, this book has no content whatsoever.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Summary</span>"
+    ]
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "“IIF Databases : U.s. Bureau of Labor\nStatistics.” n.d. Accessed February 17, 2026. https://www.bls.gov/iif/data.htm.\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "References"
+    ]
+  }
+]

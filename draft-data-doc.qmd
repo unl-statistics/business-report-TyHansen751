@@ -1,3 +1,56 @@
 ---
 title: "Draft: Data Documentation"
+bibliography: references.bib
+editor: 
+  markdown: 
+    wrap: sentence
 ---
+
+### Who collected the data:
+
+The U.S. Bureau of Labor Statistics (BLS), with help from state labor agencies [@IIFDatabasesUS].
+
+### Why the data was collected:
+
+To track nonfatal workplace injuries and illnesses nationally and help identify safety trends.
+
+### What the data is about:
+
+Work related injuries, illnesses, and fatalities.Rates by industry, injury type, and severity.
+
+### When the data was collected:
+
+Annually since 1972 and the most recent summary covers 2024.
+
+### Where the data was collected:
+
+From all across the 50 states and a sample of \~200,000 employers.
+
+### How the data was collected:
+
+Employers are legally required to log injuries and report to BLS.
+
+### Structure of the data:
+
+Summary tables by industry and detailed case tables by event type and worker characteristics.
+
+### Formatting decisions:
+
+Rates are per 100 full time equivalent (FTE) workers in summary tables and per 10,000 in detailed tables. Industry is coded by NAICS and occupation by SOC. Cells with fewer than 15 cases are blank.
+
+### Data validation/quality control:
+
+BLS runs consistency checks and publishes error estimates.
+Under reporting or failing to report by employers is a known limitation.
+
+### License:
+
+U.S. government public domain.
+
+### Suggested analysis methods:
+
+Compare injury and fall rates between manufacturing and office industries, use days lost for severity and rate ratios for risk.
+
+### Measurement instruments:
+
+OSHA Forms 300/300A/301; BLS's OIICS coding system; NAICS and SOC classification systems.
