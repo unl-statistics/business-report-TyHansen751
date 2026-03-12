@@ -50,5 +50,16 @@
     "crumbs": [
       "References"
     ]
+  },
+  {
+    "objectID": "draft-results.html",
+    "href": "draft-results.html",
+    "title": "Appendix B — Results",
+    "section": "",
+    "text": "B.0.1 Data\nData come from the BLS (Bureau of Labor Statistics) Survey of Occupational Injuries and Illnesses (SOII), accessed through the IIF (Injuries, Illnesses, and Fatalities) database (“IIF Databases : U.s. Bureau of Labor Statistics” n.d.). Two tables are used: Table 1 reports total recordable case (TRC) rates the count of all recordable workplace injuries and illnesses per 100 full time equivalent (FTE) workers by industry for 2024. Table R75 reports days away from work (DAFW) fall rates, injuries serious enough to require at least one day off work, per 10,000 FTE workers by industry division for 2023–2024. Industries are classified using the North American Industry Classification System (NAICS) as office or Non Office based on whether work is primarily desk based.\nTable B.1 shows overall injury rates and same level fall rates for each industry sector. Office industries have noticeably lower rates across both measures compared to Non Office industries.\n\n\n\n\nTable B.1: TRC rates (per 100 FTE) and same level fall DAFW rates (per 10,000 FTE) by industry. Source: BLS SOII (“IIF Databases : U.s. Bureau of Labor Statistics” n.d.).\n\n\n\n\n\n\nIndustry\nCategory\nTRC Rate\nSame Level Fall DAFW Rate\n\n\n\n\nFinance and Insurance\nOffice\n0.3\n5.4\n\n\nInformation\nOffice\n0.7\n7.9\n\n\nProfessional & Business Services\nOffice\n1.0\n6.2\n\n\nConstruction\nNon Office\n2.2\n11.0\n\n\nManufacturing\nNon Office\n2.7\n12.1\n\n\nNatural Resources & Mining\nNon Office\n2.8\n19.6\n\n\nTrade, Transportation & Utilities\nNon Office\n3.1\n20.2\n\n\n\n\n\n\n\n\n\n\n\n\n\nB.0.2 Analysis\nA two-sample t-test was used to test whether office and Non Office industries differ in their same level fall DAFW rates.\nHo: Mean same level fall rate is equal between office and Non Office industries.\nHa: Mean same level fall rate differs between the two groups.\n\n\n\n\nTable B.2: Two-sample t-test results for same level fall DAFW rates (per 10,000 FTE) by group.\n\n\n\n\n\n\n\nGroup\nMean\nSD\nt\ndf\np-value\n95% CI\n\n\n\n\nt\nOffice\n6.5\n1.3\n-3.64\n3.5\n0.027\n[-16.64, -1.81]\n\n\n\nNon Office\n15.7\n4.8\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe two-sample t-test showed a statistically significant difference in same level fall rates between office and non office workers, t(3.8) = −3.87, p = 0.020, and a 95% CI [−16.64, −1.81]. Office workers had a significantly lower mean same level fall rate (6.5 per 10,000 FTE) compared to non office workers (15.7 per 10,000 FTE). These results indicate that office workers experience significantly fewer same level falls than non office workers, thus the safety officer’s claim that office workers are at a higher risk of injury is false.\n\n\n\n\n\n\n\n\nFigure B.1: Same Level Fall DAFW Rates By Industry (per 10,000 FTE). Source: BLS SOII Table R75 (“IIF Databases : U.s. Bureau of Labor Statistics” n.d.).\n\n\n\n\n\n\n\n\n\n“IIF Databases : U.s. Bureau of Labor Statistics.” n.d. Accessed February 17, 2026. https://www.bls.gov/iif/data.htm.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>B</span>  <span class='chapter-title'>Results</span>"
+    ]
   }
 ]
