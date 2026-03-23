@@ -1,6 +1,13 @@
-## Results
+# Draft: Results
 
-### Data
+
+::: callout-note
+
+Put your name on your work and give it an appropriate title -- edit your _quarto.yml file
+
+:::
+
+## Data
 
 Data come from the BLS (Bureau of Labor Statistics) Survey of Occupational Injuries and
 Illnesses (SOII), accessed through the IIF (Injuries, Illnesses, and Fatalities) database
@@ -11,6 +18,13 @@ rates, injuries serious enough to require at least one day off work, per 10,000 
 by industry division for 2023–2024. Industries are classified using the North American
 Industry Classification System (NAICS) as office or Non Office based on whether work is
 primarily desk based.
+
+::: callout-note
+This should be in the data section, not the results section, but it looks good!
+
+Make sure you add a date -- the release date? -- to your bibliography entry, and make sure the other fields are filled in. Zotero doesn't always catch everything perfectly.
+:::
+
 ```{r}
 #| label: setup
 #| echo: false
@@ -77,6 +91,7 @@ industry_data <- data.frame(
 @tbl-summary shows overall injury rates and same level fall rates for each industry sector.
 Office industries have noticeably lower rates across both measures compared to Non Office
 industries.
+
 ```{r}
 #| label: tbl-summary
 #| tbl-cap: "TRC rates (per 100 FTE) and same level fall DAFW rates (per 10,000 FTE) by industry. Source: BLS SOII [@IIFDatabasesUS]."
@@ -92,7 +107,13 @@ kable(industry_data,
 
 ---
 
-### Analysis
+## Analysis
+
+::: callout-note
+
+A bit abrupt -- explain how this works and what the goal is before you do the test, then interpret the results.
+
+:::
 
 A two-sample t-test was used to test whether office and Non Office industries differ
 in their same level fall DAFW rates.
