@@ -1,3 +1,30 @@
 ---
 title: "Draft: Intro/Conclusions"
 ---
+## Introduction
+
+Workplace injuries are a significant concern for businesses across all industries, costing
+employers billions of dollars annually in lost productivity, medical expenses, and workers'
+compensation claims. Falls in particular are one of the leading causes of occupational injury
+in the United States. A recent article raised concern that office workers may be more likely
+to be injured through falls than non office workers, prompting our company's safety officer
+to question whether stronger safety policies are needed for office staff. To evaluate this
+claim, this report uses data from the BLS (Bureau of Labor Statistics) Survey of
+Occupational Injuries and Illnesses (SOII) [@IIFDatabasesUS] to compare injury and fall
+rates across office and non office industries. A two sample t-test is used to assess
+whether differences in same level fall rates between the two groups are statistically
+significant.
+
+## Conclusion
+
+The analysis found that office workers experience significantly fewer same level fall
+injuries than non office workers (t(3.5) = -3.64, p = 0.027), with office industries
+averaging 6.5 fall cases per 10,000 FTE workers compared to 15.7 for non office industries.
+Overall injury rates follow the same pattern, with office industries reporting total
+recordable case (TRC) rates well below both non office industries and the private industry
+average. Taken together, the evidence does not support implementing stronger fall safety
+policies specifically for office workers. Instead, the company's safety resources would be
+better directed toward its industrial and manufacturing operations where risk is
+substantially higher. Future work could examine injury severity more closely using days away
+from work data, or explore whether specific office occupations such as facilities or
+mailroom staff carry elevated risk compared to fully desk based roles.

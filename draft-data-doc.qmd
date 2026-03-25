@@ -18,7 +18,7 @@ Annually since 1972 and the most recent summary covers 2024.
 
 ## Where the data was collected:
 
-From all across the 50 states and a sample of \~200,000 employers.
+From all across the 50 states and a sample of ~200,000 employers.
 
 ## How the data was collected:
 
@@ -34,8 +34,7 @@ Rates are per 100 full time equivalent (FTE) workers in summary tables and per 1
 
 ## Data validation/quality control:
 
-BLS runs consistency checks and publishes error estimates.
-Under reporting or failing to report by employers is a known limitation.
+BLS runs consistency checks and publishes error estimates. Under reporting or failing to report by employers is a known limitation.
 
 ## License:
 
@@ -50,9 +49,5 @@ Compare injury and fall rates between manufacturing and office industries, use d
 OSHA Forms 300/300A/301; BLS's OIICS coding system; NAICS and SOC classification systems.
 
 ::: callout-note
-
 Describe this in longer form -- turn your outline into paragraphs for the final report, please.
-
 :::
-
-

@@ -1,12 +1,5 @@
 # Draft: Results
 
-
-::: callout-note
-
-Put your name on your work and give it an appropriate title -- edit your _quarto.yml file
-
-:::
-
 ## Data
 
 Data come from the BLS (Bureau of Labor Statistics) Survey of Occupational Injuries and
