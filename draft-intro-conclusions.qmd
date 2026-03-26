@@ -1,30 +1,64 @@
 ---
 title: "Draft: Intro/Conclusions"
 ---
+
+
 ## Introduction
 
-Workplace injuries are a significant concern for businesses across all industries, costing
-employers billions of dollars annually in lost productivity, medical expenses, and workers'
-compensation claims. Falls in particular are one of the leading causes of occupational injury
-in the United States. A recent article raised concern that office workers may be more likely
-to be injured through falls than non office workers, prompting our company's safety officer
-to question whether stronger safety policies are needed for office staff. To evaluate this
-claim, this report uses data from the BLS (Bureau of Labor Statistics) Survey of
-Occupational Injuries and Illnesses (SOII) [@IIFDatabasesUS] to compare injury and fall
-rates across office and non office industries. A two sample t-test is used to assess
-whether differences in same level fall rates between the two groups are statistically
-significant.
+Our company operates across both office and industrial environments, and
+ensuring the safety of all employees is a shared priority. This report
+was prepared in response to a concern raised by our safety officer
+regarding fall injury risk among office workers. Specifically, a recent
+article suggested that office workers are more likely to be injured
+through falls than workers in other environments, raising the question
+of whether our company should implement stronger safety policies for
+office staff. Using data from the BLS (Bureau of Labor Statistics)
+Survey of Occupational Injuries and Illnesses (SOII) [@IIFDatabasesUS],
+I compared overall injury rates and same level fall rates across office
+and non office industries to evaluate this claim. Risk is assessed on
+two factors: the probability of injury occurring and the severity of
+that injury as measured by days away from work (DAFW).
+
+The report proceeds as follows. The Data Documentation section describes
+the data source, key variables, and industry classifications used. The
+Results section presents descriptive statistics by industry, a
+comparison of same level fall rates between office and non office
+industries, and the results of a two sample t test. The Conclusion
+summarizes my findings and provides a recommendation to the safety
+officer on whether additional office safety policies are justified.
 
 ## Conclusion
 
-The analysis found that office workers experience significantly fewer same level fall
-injuries than non office workers (t(3.5) = -3.64, p = 0.027), with office industries
-averaging 6.5 fall cases per 10,000 FTE workers compared to 15.7 for non office industries.
-Overall injury rates follow the same pattern, with office industries reporting total
-recordable case (TRC) rates well below both non office industries and the private industry
-average. Taken together, the evidence does not support implementing stronger fall safety
-policies specifically for office workers. Instead, the company's safety resources would be
-better directed toward its industrial and manufacturing operations where risk is
-substantially higher. Future work could examine injury severity more closely using days away
-from work data, or explore whether specific office occupations such as facilities or
-mailroom staff carry elevated risk compared to fully desk based roles.
+My analysis found that office workers experience significantly fewer
+same level fall injuries than non office workers (t(3.8) = -3.64, p =
+0.027), with office industries averaging 6.5 fall cases per 10,000 FTE
+workers compared to 15.7 for non office industries. Overall injury rates
+follow the same pattern, with office industries reporting TRC rates well
+below non office industries and the private industry average. These
+results are consistent with what one would expect given the physical
+demands of non office work, and they contradict the claim in the article
+that prompted this investigation.
+
+There are several limitations to consider. The t test was conducted on
+only seven industry divisions, three office and four non office,
+resulting in low statistical power. While the result is statistically
+significant, the small number of industries means findings should be
+interpreted with some caution. The SOII data also rely on employer
+reported injuries, and underreporting is a known limitation, though I
+have no strong reason to believe underreporting differs drastically 
+between office and non office settings in a way that would reverse these
+findings. It is also worth noting that classifying industries as simply
+office or non office is subjective. Many industries, including our
+own company, contain both types of workers. Future analysis using
+occupation level data would allow for a more precise comparison.
+
+Based on my findings, I recommend that our safety officer focus our
+resources on the company's industrial and manufacturing operations,
+where injury risk is substantially higher. This does not mean office
+safety should be neglected, basic precautions such as cable management,
+appropriate lighting, and non slip flooring remain imperative for safety.
+But a major policy change for office workers is not justified by the evidence.
+Going forward, it may be worth looking into whether specific office roles
+such as facilities or mailroom staff carry elevated risk compared to
+fully desk based employees, and how the shift of hybrid work might affect injury
+patterns over time.
