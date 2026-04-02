@@ -7,6 +7,8 @@ title: "Draft: Intro/Conclusions"
 
 Consider using "this report compares" instead of "I compare" -- in practice, formality in a report is a company culture thing, but I think if you're going to submit a formal report you usually don't want 1st person language.
 
+It's fine to make up a company name or something to make it easier to write this.
+
 :::
 
 ## Introduction
