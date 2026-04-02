@@ -3,6 +3,12 @@ title: "Draft: Intro/Conclusions"
 ---
 
 
+::: callout-note
+
+Consider using "this report compares" instead of "I compare" -- in practice, formality in a report is a company culture thing, but I think if you're going to submit a formal report you usually don't want 1st person language.
+
+:::
+
 ## Introduction
 
 Our company operates across both office and industrial environments, and
@@ -19,6 +25,11 @@ and non office industries to evaluate this claim. Risk is assessed on
 two factors: the probability of injury occurring and the severity of
 that injury as measured by days away from work (DAFW).
 
+::: callout-note
+Cite specific sections with section labels as shown in class, please.
+
+:::
+
 The report proceeds as follows. The Data Documentation section describes
 the data source, key variables, and industry classifications used. The
 Results section presents descriptive statistics by industry, a
@@ -28,6 +39,15 @@ summarizes my findings and provides a recommendation to the safety
 officer on whether additional office safety policies are justified.
 
 ## Conclusion
+
+::: callout-note
+use quarto inline results to fill the t-test stats/pvalue in as part of the paragraph so that everything is fully reproducible. This is a huge time-saver when making reports that have to be re-run every month/quarter/year.
+
+
+
+You might want to make this a bit more skimmable and/or executive friendly using techniques discussed in class
+
+:::
 
 My analysis found that office workers experience significantly fewer
 same level fall injuries than non office workers (t(3.8) = -3.64, p =
