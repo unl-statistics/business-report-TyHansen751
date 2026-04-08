@@ -2,12 +2,12 @@
   {
     "objectID": "draft-data-doc.html",
     "href": "draft-data-doc.html",
-    "title": "Appendix A — “Draft: Data Documentation”",
+    "title": "Appendix A — Draft: Data Documentation",
     "section": "",
-    "text": "A.1 Who collected the data:\nThe U.S. Bureau of Labor Statistics (BLS), with help from state labor agencies (“IIF Databases : U.s. Bureau of Labor Statistics” n.d.).",
+    "text": "A.1 Who collected the data\nThe U.S. Bureau of Labor Statistics (BLS), in cooperation with state labor agencies, collects and publishes the data used in this report (“IIF Databases : U.s. Bureau of Labor Statistics” n.d.).",
     "crumbs": [
       "Appendices",
-      "<span class='chapter-number'>A</span>  <span class='chapter-title'>\"Draft: Data Documentation\"</span>"
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Draft: Data Documentation</span>"
     ]
   },
   {
@@ -75,78 +75,78 @@
   {
     "objectID": "draft-data-doc.html#why-the-data-was-collected",
     "href": "draft-data-doc.html#why-the-data-was-collected",
-    "title": "Appendix A — “Draft: Data Documentation”",
-    "section": "A.2 Why the data was collected:",
-    "text": "A.2 Why the data was collected:\nTo track nonfatal workplace injuries and illnesses nationally and help identify safety trends.",
+    "title": "Appendix A — Draft: Data Documentation",
+    "section": "A.2 Why the data was collected",
+    "text": "A.2 Why the data was collected\nThe BLS collects these data to track nonfatal workplace injuries and illnesses at the national level and to help employers, policymakers, and researchers identify safety trends and allocate resources appropriately.",
     "crumbs": [
       "Appendices",
-      "<span class='chapter-number'>A</span>  <span class='chapter-title'>\"Draft: Data Documentation\"</span>"
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Draft: Data Documentation</span>"
     ]
   },
   {
     "objectID": "draft-data-doc.html#what-the-data-is-about",
     "href": "draft-data-doc.html#what-the-data-is-about",
-    "title": "Appendix A — “Draft: Data Documentation”",
-    "section": "A.3 What the data is about:",
-    "text": "A.3 What the data is about:\nWork related injuries, illnesses, and fatalities.Rates by industry, injury type, and severity.",
+    "title": "Appendix A — Draft: Data Documentation",
+    "section": "A.3 What the data is about",
+    "text": "A.3 What the data is about\nThe data cover work-related injuries, illnesses, and fatalities across private industry and state and local government. This includes rates by industry, injury type, event or exposure, and severity as measured by days away from work.",
     "crumbs": [
       "Appendices",
-      "<span class='chapter-number'>A</span>  <span class='chapter-title'>\"Draft: Data Documentation\"</span>"
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Draft: Data Documentation</span>"
     ]
   },
   {
     "objectID": "draft-data-doc.html#when-the-data-was-collected",
     "href": "draft-data-doc.html#when-the-data-was-collected",
-    "title": "Appendix A — “Draft: Data Documentation”",
-    "section": "A.4 When the data was collected:",
-    "text": "A.4 When the data was collected:\nAnnually since 1972 and the most recent summary covers 2024.",
+    "title": "Appendix A — Draft: Data Documentation",
+    "section": "A.4 When the data was collected",
+    "text": "A.4 When the data was collected\nThe BLS has collected workplace injury and illness data annually since 1972. The most recent summary data used in this report cover reference year 2024, with biennial case and demographic detail available for the 2023–2024 period.",
     "crumbs": [
       "Appendices",
-      "<span class='chapter-number'>A</span>  <span class='chapter-title'>\"Draft: Data Documentation\"</span>"
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Draft: Data Documentation</span>"
     ]
   },
   {
     "objectID": "draft-data-doc.html#where-the-data-was-collected",
     "href": "draft-data-doc.html#where-the-data-was-collected",
-    "title": "Appendix A — “Draft: Data Documentation”",
-    "section": "A.5 Where the data was collected:",
-    "text": "A.5 Where the data was collected:\nFrom all across the 50 states and a sample of ~200,000 employers.",
+    "title": "Appendix A — Draft: Data Documentation",
+    "section": "A.5 Where the data was collected",
+    "text": "A.5 Where the data was collected\nData are collected from employers across all 50 states through a sample of approximately 200,000 establishments, providing nationally representative estimates.",
     "crumbs": [
       "Appendices",
-      "<span class='chapter-number'>A</span>  <span class='chapter-title'>\"Draft: Data Documentation\"</span>"
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Draft: Data Documentation</span>"
     ]
   },
   {
     "objectID": "draft-data-doc.html#how-the-data-was-collected",
     "href": "draft-data-doc.html#how-the-data-was-collected",
-    "title": "Appendix A — “Draft: Data Documentation”",
-    "section": "A.6 How the data was collected:",
-    "text": "A.6 How the data was collected:\nEmployers are legally required to log injuries and report to BLS.",
+    "title": "Appendix A — Draft: Data Documentation",
+    "section": "A.6 How the data was collected",
+    "text": "A.6 How the data was collected\nEmployers are legally required under OSHA regulations to log all recordable work-related injuries and illnesses on OSHA Form 300 and to submit summary information annually. The BLS uses these records, collected through the Survey of Occupational Injuries and Illnesses (SOII), to produce national and state-level estimates.",
     "crumbs": [
       "Appendices",
-      "<span class='chapter-number'>A</span>  <span class='chapter-title'>\"Draft: Data Documentation\"</span>"
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Draft: Data Documentation</span>"
     ]
   },
   {
     "objectID": "draft-data-doc.html#structure-of-the-data",
     "href": "draft-data-doc.html#structure-of-the-data",
-    "title": "Appendix A — “Draft: Data Documentation”",
-    "section": "A.7 Structure of the data:",
-    "text": "A.7 Structure of the data:\nSummary tables by industry and detailed case tables by event type and worker characteristics.",
+    "title": "Appendix A — Draft: Data Documentation",
+    "section": "A.7 Structure of the data",
+    "text": "A.7 Structure of the data\nThe data are organized into summary tables reporting injury and illness rates by detailed industry, and case and demographic tables reporting rates by event type, worker characteristics, and other case circumstances. Industry classifications follow the North American Industry Classification System (NAICS) and occupations are coded using the Standard Occupational Classification (SOC) system.",
     "crumbs": [
       "Appendices",
-      "<span class='chapter-number'>A</span>  <span class='chapter-title'>\"Draft: Data Documentation\"</span>"
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Draft: Data Documentation</span>"
     ]
   },
   {
     "objectID": "draft-data-doc.html#formatting-decisions",
     "href": "draft-data-doc.html#formatting-decisions",
-    "title": "Appendix A — “Draft: Data Documentation”",
-    "section": "A.8 Formatting decisions:",
-    "text": "A.8 Formatting decisions:\nRates are per 100 full time equivalent (FTE) workers in summary tables and per 10,000 in detailed tables. Industry is coded by NAICS and occupation by SOC. Cells with fewer than 15 cases are blank.",
+    "title": "Appendix A — Draft: Data Documentation",
+    "section": "A.8 Formatting decisions",
+    "text": "A.8 Formatting decisions\nIncidence rates in summary tables are expressed per 100 full-time equivalent (FTE) workers, while rates in the detailed case and demographic tables are expressed per 10,000 FTE workers. Cells based on fewer than 15 cases are suppressed and left blank to protect confidentiality and ensure reliability.",
     "crumbs": [
       "Appendices",
-      "<span class='chapter-number'>A</span>  <span class='chapter-title'>\"Draft: Data Documentation\"</span>"
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Draft: Data Documentation</span>"
     ]
   },
   {
@@ -163,34 +163,34 @@
   {
     "objectID": "draft-data-doc.html#license",
     "href": "draft-data-doc.html#license",
-    "title": "Appendix A — “Draft: Data Documentation”",
-    "section": "A.10 License:",
-    "text": "A.10 License:\nU.S. government public domain.",
+    "title": "Appendix A — Draft: Data Documentation",
+    "section": "A.10 License",
+    "text": "A.10 License\nThe data are produced by the U.S. federal government and are in the public domain, available at no cost through the BLS IIF database (“IIF Databases : U.s. Bureau of Labor Statistics” n.d.).",
     "crumbs": [
       "Appendices",
-      "<span class='chapter-number'>A</span>  <span class='chapter-title'>\"Draft: Data Documentation\"</span>"
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Draft: Data Documentation</span>"
     ]
   },
   {
     "objectID": "draft-data-doc.html#suggested-analysis-methods",
     "href": "draft-data-doc.html#suggested-analysis-methods",
-    "title": "Appendix A — “Draft: Data Documentation”",
-    "section": "A.11 Suggested analysis methods:",
-    "text": "A.11 Suggested analysis methods:\nCompare injury and fall rates between manufacturing and office industries, use days lost for severity and rate ratios for risk.",
+    "title": "Appendix A — Draft: Data Documentation",
+    "section": "A.11 Suggested analysis methods",
+    "text": "A.11 Suggested analysis methods\nThe primary analysis in this report compares same-level fall rates between office and non-office industries. Days away from work are used as a proxy for injury severity, and a two-sample Welch t-test is used to assess whether differences between groups are statistically significant.",
     "crumbs": [
       "Appendices",
-      "<span class='chapter-number'>A</span>  <span class='chapter-title'>\"Draft: Data Documentation\"</span>"
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Draft: Data Documentation</span>"
     ]
   },
   {
     "objectID": "draft-data-doc.html#measurement-instruments",
     "href": "draft-data-doc.html#measurement-instruments",
-    "title": "Appendix A — “Draft: Data Documentation”",
-    "section": "A.12 Measurement instruments:",
-    "text": "A.12 Measurement instruments:\nOSHA Forms 300/300A/301; BLS’s OIICS coding system; NAICS and SOC classification systems.\n\n\n\n\n\n\nNote\n\n\n\nDescribe this in longer form – turn your outline into paragraphs for the final report, please.\n\n\n\n\n\n\n“IIF Databases : U.s. Bureau of Labor Statistics.” n.d. Accessed February 17, 2026. https://www.bls.gov/iif/data.htm.",
+    "title": "Appendix A — Draft: Data Documentation",
+    "section": "A.12 Measurement instruments",
+    "text": "A.12 Measurement instruments\nData are recorded using OSHA Forms 300, 300A, and 301. The BLS uses its Occupational Injury and Illness Classification System (OIICS) to code case circumstances, and industries and occupations are classified using NAICS and SOC respectively.\n\n\n\n\n“IIF Databases : U.s. Bureau of Labor Statistics.” n.d. Accessed February 17, 2026. https://www.bls.gov/iif/data.htm.",
     "crumbs": [
       "Appendices",
-      "<span class='chapter-number'>A</span>  <span class='chapter-title'>\"Draft: Data Documentation\"</span>"
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Draft: Data Documentation</span>"
     ]
   },
   {
@@ -209,7 +209,7 @@
     "href": "draft-results.html#analysis",
     "title": "Appendix B — Draft: Results",
     "section": "B.2 Analysis",
-    "text": "B.2 Analysis\n\n\n\n\n\n\nNote\n\n\n\nA bit abrupt – explain how this works and what the goal is before you do the test, then interpret the results.\n\n\nA two-sample t-test was used to test whether office and Non Office industries differ in their same level fall DAFW rates.\nHo: Mean same level fall rate is equal between office and Non Office industries.\nHa: Mean same level fall rate differs between the two groups.\n\n\n\n\nTable B.2: Two-sample t-test results for same level fall DAFW rates (per 10,000 FTE) by group.\n\n\n\n\n\n\n\nGroup\nMean\nSD\nt\ndf\np-value\n95% CI\n\n\n\n\nt\nOffice\n6.5\n1.3\n-3.64\n3.5\n0.027\n[-16.64, -1.81]\n\n\n\nNon Office\n15.7\n4.8\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe two-sample t-test showed a statistically significant difference in same level fall rates between office and non office workers, t(3.8) = -3.64, p = 0.027, and a 95% CI [−16.64, −1.81]. Office workers had a significantly lower mean same level fall rate (6.5 per 10,000 FTE) compared to non office workers (15.7 per 10,000 FTE). These results indicate that office workers experience significantly fewer same level falls than non office workers, thus the safety officer’s claim that office workers are at a higher risk of injury is false.\n\n\n\n\n\n\n\n\nFigure B.1: Same Level Fall DAFW Rates By Industry (per 10,000 FTE). Source: BLS SOII Table R75 (“IIF Databases : U.s. Bureau of Labor Statistics” n.d.).\n\n\n\n\n\n\n\n\n\n“IIF Databases : U.s. Bureau of Labor Statistics.” n.d. Accessed February 17, 2026. https://www.bls.gov/iif/data.htm.",
+    "text": "B.2 Analysis\nTo formally evaluate the safety officer’s claim, I compared same level fall DAFW rates between office and non office industries using a two sample t-test. This test is appropriate here because we are comparing the means of two independent groups and do not assume equal variances between them. The goal is to determine whether any observed difference in fall rates between office and non office industries is statistically significant or likely due to chance. in their same level fall DAFW rates.\nHo: Mean same level fall rate is equal between office and Non Office industries.\nHa: Mean same level fall rate differs between the two groups.\n\n\n\n\nTable B.2: Two-sample t-test results for same level fall DAFW rates (per 10,000 FTE) by group.\n\n\n\n\n\n\n\nGroup\nMean\nSD\nt\ndf\np-value\n95% CI\n\n\n\n\nt\nOffice\n6.5\n1.3\n-3.64\n3.5\n0.027\n[-16.64, -1.81]\n\n\n\nNon Office\n15.7\n4.8\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe results show a statistically significant difference in same level fall rates between office and non-office industries t = -3.64, p = 0.027, and a 95% CI [−16.64, −1.81]. Office industries averaged 6.5 same level fall cases per 10,000 FTE workers, compared to 15.7 for non office industries. These findings do not support the safety officer’s claim that office workers experience significantly fewer same level fall injuries than their non office counterparts.\n\n\n\n\n\n\n\n\nFigure B.1: Same Level Fall DAFW Rates By Industry (per 10,000 FTE). Source: BLS SOII Table R75 (“IIF Databases : U.s. Bureau of Labor Statistics” n.d.).\n\n\n\n\n\n\n\n\n\n“IIF Databases : U.s. Bureau of Labor Statistics.” n.d. Accessed February 17, 2026. https://www.bls.gov/iif/data.htm.",
     "crumbs": [
       "Appendices",
       "<span class='chapter-number'>B</span>  <span class='chapter-title'>Draft: Results</span>"
@@ -246,6 +246,17 @@
     "crumbs": [
       "Appendices",
       "<span class='chapter-number'>D</span>  <span class='chapter-title'>Draft: Executive Summary</span>"
+    ]
+  },
+  {
+    "objectID": "draft-data-doc.html#data-validation-and-quality-control",
+    "href": "draft-data-doc.html#data-validation-and-quality-control",
+    "title": "Appendix A — Draft: Data Documentation",
+    "section": "A.9 Data validation and quality control",
+    "text": "A.9 Data validation and quality control\nThe BLS runs consistency checks on all submitted data and publishes error estimates alongside its tables. A known limitation of the SOII is underreporting — some employers may fail to record or report all qualifying injuries and illnesses. While the magnitude of underreporting is difficult to quantify, BLS-funded research suggests it is a real concern. However, there is no strong reason to believe underreporting differs systematically between office and non-office industries in a way that would affect the conclusions of this report.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Draft: Data Documentation</span>"
     ]
   }
 ]

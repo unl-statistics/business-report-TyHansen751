@@ -1,36 +1,19 @@
----  
+---
 title: "Draft: Executive Summary"
 ---
 
 #### Overview
-  This report evaluates whether office workers at our company face greater fall injury risk
-than non office workers, and whether stronger office safety policies are warranted. The
-analysis was prompted by a concern raised by our safety officer following a recent article
-suggesting office workers are more prone to fall injuries than workers in other environments.
-Using data from the BLS Survey of Occupational Injuries and Illnesses (SOII)
-[@IIFDatabasesUS], overall injury rates and same level fall rates were compared across
-office and non office industries.
+
+This report evaluates whether office workers at our company face greater fall injury risk than non office workers, and whether stronger office safety policies are warranted. The analysis was prompted by a concern raised by our safety officer following a recent article suggesting office workers are more prone to fall injuries than workers in other environments. Using data from the BLS Survey of Occupational Injuries and Illnesses (SOII) [@IIFDatabasesUS], overall injury rates and same level fall rates were compared across office and non office industries.
 
 #### Key Findings
-  Office industries averaged 6.5 same level fall cases per 10,000 FTE workers, compared
-to 15.7 for non office industries which is a statistically significant difference
-(t(3.8) =  3.64, p = 0.027).
-Overall injury rates follow the same pattern. Office industries reported total recordable
-case (TRC) rates well below non office industries and the private industry average.
-The data does not support the claim that office workers are at greater fall risk than
-non office workers.
+
+Office industries averaged 6.5 same level fall cases per 10,000 FTE workers, compared to 15.7 for non office industries which is a statistically significant difference (t(3.8) = 3.64, p = 0.027). Overall injury rates follow the same pattern. Office industries reported total recordable case (TRC) rates well below non office industries and the private industry average. The data does not support the claim that office workers are at greater fall risk than non office workers.
 
 #### Recommendations
-  Based on these findings, it is recommended that the safety officer focus resources toward
-the company's industrial and manufacturing operations, where injury risk is substantially
-higher. A major policy change for office workers is not justified by the evidence.
-Basic office safety precautions, such as cable management, adequate lighting, and
-non slip flooring, remain key but do not require significant new investment.
+
+Based on these findings, it is recommended that the safety officer focus resources toward the company's industrial and manufacturing operations, where injury risk is substantially higher. A major policy change for office workers is not justified by the evidence. Basic office safety precautions, such as cable management, adequate lighting, and non slip flooring, remain key but do not require significant new investment.
 
 #### Next Steps
-  Future analysis should examine whether specific office roles, such as facilities or
-mailroom staff, carry elevated injury risk compared to fully desk based employees.
-IF the company's workforce shifts toward hybrid and remote work arrangements,
-it will be worth investigating how injury patterns change over time. Occupation level data
-from the SOII would allow for a more in depth analysis than the industry level comparison
-presented here.
+
+Future analysis should examine whether specific office roles, such as facilities or mailroom staff, carry elevated injury risk compared to fully desk based employees. IF the company's workforce shifts toward hybrid and remote work arrangements, it will be worth investigating how injury patterns change over time. Occupation level data from the SOII would allow for a more in depth analysis than the industry level comparison presented here.
