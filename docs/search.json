@@ -1,68 +1,5 @@
 [
   {
-    "objectID": "draft-data-doc.html",
-    "href": "draft-data-doc.html",
-    "title": "Appendix A — Draft: Data Documentation",
-    "section": "",
-    "text": "A.1 Who collected the data\nThe U.S. Bureau of Labor Statistics (BLS), in cooperation with state labor agencies, collects and publishes the data used in this report (“IIF Databases : U.s. Bureau of Labor Statistics” n.d.).",
-    "crumbs": [
-      "Appendices",
-      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Draft: Data Documentation</span>"
-    ]
-  },
-  {
-    "objectID": "draft-data-doc.html#references",
-    "href": "draft-data-doc.html#references",
-    "title": "Appendix A — Draft: Data Documentation",
-    "section": "A.1 References",
-    "text": "A.1 References\n\n\n\n\n“IIF Databases : U.s. Bureau of Labor Statistics.” n.d. Accessed February 17, 2026. https://www.bls.gov/iif/data.htm.",
-    "crumbs": [
-      "Appendices",
-      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Draft: Data Documentation</span>"
-    ]
-  },
-  {
-    "objectID": "intro.html",
-    "href": "intro.html",
-    "title": "1  Introduction",
-    "section": "",
-    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
-    ]
-  },
-  {
-    "objectID": "summary.html",
-    "href": "summary.html",
-    "title": "2  Summary",
-    "section": "",
-    "text": "In summary, this book has no content whatsoever.",
-    "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Summary</span>"
-    ]
-  },
-  {
-    "objectID": "references.html",
-    "href": "references.html",
-    "title": "References",
-    "section": "",
-    "text": "“IIF Databases : U.s. Bureau of Labor\nStatistics.” n.d. Accessed February 17, 2026. https://www.bls.gov/iif/data.htm.\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
-    "crumbs": [
-      "References"
-    ]
-  },
-  {
-    "objectID": "draft-results.html",
-    "href": "draft-results.html",
-    "title": "Appendix B — Draft: Results",
-    "section": "",
-    "text": "B.1 Data\nData come from the BLS (Bureau of Labor Statistics) Survey of Occupational Injuries and Illnesses (SOII), accessed through the IIF (Injuries, Illnesses, and Fatalities) database (“IIF Databases : U.s. Bureau of Labor Statistics” n.d.). Two tables are used: Table 1 reports total recordable case (TRC) rates the count of all recordable workplace injuries and illnesses per 100 full time equivalent (FTE) workers by industry for 2024. Table R75 reports days away from work (DAFW) fall rates, injuries serious enough to require at least one day off work, per 10,000 FTE workers by industry division for 2023–2024. Industries are classified using the North American Industry Classification System (NAICS) as office or Non Office based on whether work is primarily desk based.\nTable B.1 shows overall injury rates and same level fall rates for each industry sector. Office industries have noticeably lower rates across both measures compared to Non Office industries.\nTable B.1: TRC rates (per 100 FTE) and same level fall DAFW rates (per 10,000 FTE) by industry. Source: BLS SOII (“IIF Databases : U.s. Bureau of Labor Statistics” n.d.).\n\n\n\n\n\n\nIndustry\nCategory\nTRC Rate\nSame Level Fall DAFW Rate\n\n\n\n\nFinance and Insurance\nOffice\n0.3\n5.4\n\n\nInformation\nOffice\n0.7\n7.9\n\n\nProfessional & Business Services\nOffice\n1.0\n6.2\n\n\nConstruction\nNon Office\n2.2\n11.0\n\n\nManufacturing\nNon Office\n2.7\n12.1\n\n\nNatural Resources & Mining\nNon Office\n2.8\n19.6\n\n\nTrade, Transportation & Utilities\nNon Office\n3.1\n20.2",
-    "crumbs": [
-      "Appendices",
-      "<span class='chapter-number'>B</span>  <span class='chapter-title'>Draft: Results</span>"
-    ]
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Evaluation of Office Vs. Non-Office Fall Injuries",
@@ -73,190 +10,219 @@
     ]
   },
   {
-    "objectID": "draft-data-doc.html#why-the-data-was-collected",
-    "href": "draft-data-doc.html#why-the-data-was-collected",
-    "title": "Appendix A — Draft: Data Documentation",
-    "section": "A.2 Why the data was collected",
-    "text": "A.2 Why the data was collected\nThe BLS collects these data to track nonfatal workplace injuries and illnesses at the national level and to help employers, policymakers, and researchers identify safety trends and allocate resources appropriately.",
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "1  Introduction",
+    "section": "",
+    "text": "1.1 Introduction\nAcme Corp operates across both office and industrial environments, and ensuring the safety of all employees is a shared priority. This report was prepared in response to a concern raised by our safety officer regarding fall injury risk among office workers. Specifically, a recent article suggested that office workers are more likely to be injured through falls than workers in other environments, raising the question of whether Acme Corp should implement stronger safety policies for office staff. Using data from the BLS (Bureau of Labor Statistics) Survey of Occupational Injuries and Illnesses (SOII) (“IIF Databases : U.s. Bureau of Labor Statistics” n.d.), this report compares overall injury rates and same-level fall rates across office and non-office industries to evaluate this claim. Risk is assessed on two factors: the probability of injury occurring and the severity of that injury as measured by days away from work (DAFW).\nThe report proceeds as follows. The Data Documentation section (Appendix A) describes the data source, key variables, and industry classifications used. The Results section (Appendix C) presents descriptive statistics by industry, a comparison of same-level fall rates between office and non-office industries, and the results of a two-sample Welch t-test. The Conclusion (Section 2.1) summarizes the findings and provides a recommendation to the safety officer on whether additional office safety policies are justified.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Draft: Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#introduction",
+    "href": "intro.html#introduction",
+    "title": "1  Introduction",
+    "section": "",
+    "text": "“IIF Databases : U.s. Bureau of Labor Statistics.” n.d. Accessed February 17, 2026. https://www.bls.gov/iif/data.htm.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Draft: Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "2  Conclusion",
+    "section": "",
+    "text": "2.1 Summary\nKey finding: Office workers experience significantly fewer same-level fall injuries than non-office workers. This report does not recommend a major policy overhaul for office staff.\nOffice industries averaged 6.5 same-level fall cases per 10,000 FTE workers, compared to 15.7 for non-office industries (t(3.5) = -3.64, p = 0.027, 95% CI [-16.64, -1.81]). Overall injury rates follow the same pattern, with office industries reporting TRC rates well below non-office industries and the private industry average. These results are consistent with what one would expect given the physical demands of non-office work, and they contradict the claim in the article that prompted this investigation.\nThere are several limitations to consider. The t-test was conducted on only seven industry divisions — three office and four non-office — resulting in low statistical power. While the result is statistically significant, the small number of industries means findings should be interpreted with some caution. The SOII data also rely on employer-reported injuries, and underreporting is a known limitation, though there is no strong reason to believe underreporting differs systematically between office and non-office settings in a way that would reverse these findings. It is also worth noting that classifying industries as simply office or non-office is a simplification — many industries, including Acme Corp itself, contain both types of workers. Future analysis using occupation-level data would allow for a more precise comparison.\nIt is recommended that Acme Corp’s safety officer focus resources on the company’s industrial and manufacturing operations, where injury risk is substantially higher. This does not mean office safety should be neglected — basic precautions such as cable management, appropriate lighting, and non-slip flooring remain worthwhile. However, a major policy change for office workers is not justified by the evidence. Going forward, it may be worth examining whether specific office roles such as facilities or mailroom staff carry elevated risk compared to fully desk-based employees, and how the shift toward hybrid work might affect injury patterns over time.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Conclusion</span>"
+    ]
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "“IIF Databases : U.s. Bureau of Labor\nStatistics.” n.d. Accessed February 17, 2026. https://www.bls.gov/iif/data.htm.",
+    "crumbs": [
+      "References"
+    ]
+  },
+  {
+    "objectID": "draft-data-doc.html",
+    "href": "draft-data-doc.html",
+    "title": "Appendix A — Data Documentation",
+    "section": "",
+    "text": "A.1 Who collected the data\nThe U.S. Bureau of Labor Statistics (BLS), in cooperation with state labor agencies, collects and publishes the data used in this report (“IIF Databases : U.s. Bureau of Labor Statistics” n.d.).",
     "crumbs": [
       "Appendices",
-      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Draft: Data Documentation</span>"
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Data Documentation</span>"
+    ]
+  },
+  {
+    "objectID": "draft-data-doc.html#why-the-data-was-collected",
+    "href": "draft-data-doc.html#why-the-data-was-collected",
+    "title": "Appendix A — Data Documentation",
+    "section": "A.2 Why the data was collected",
+    "text": "A.2 Why the data was collected\nThe BLS collects this data to track nonfatal workplace injuries and illnesses at the national level and to help employers, policymakers, and researchers identify safety trends and allocate resources appropriately.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Data Documentation</span>"
     ]
   },
   {
     "objectID": "draft-data-doc.html#what-the-data-is-about",
     "href": "draft-data-doc.html#what-the-data-is-about",
-    "title": "Appendix A — Draft: Data Documentation",
+    "title": "Appendix A — Data Documentation",
     "section": "A.3 What the data is about",
-    "text": "A.3 What the data is about\nThe data cover work-related injuries, illnesses, and fatalities across private industry and state and local government. This includes rates by industry, injury type, event or exposure, and severity as measured by days away from work.",
+    "text": "A.3 What the data is about\nThe data covers work-related injuries, illnesses, and fatalities across private industry and state and local government. This includes rates by industry, injury type, event or exposure, and severity as measured by days away from work.",
     "crumbs": [
       "Appendices",
-      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Draft: Data Documentation</span>"
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Data Documentation</span>"
     ]
   },
   {
     "objectID": "draft-data-doc.html#when-the-data-was-collected",
     "href": "draft-data-doc.html#when-the-data-was-collected",
-    "title": "Appendix A — Draft: Data Documentation",
+    "title": "Appendix A — Data Documentation",
     "section": "A.4 When the data was collected",
     "text": "A.4 When the data was collected\nThe BLS has collected workplace injury and illness data annually since 1972. The most recent summary data used in this report cover reference year 2024, with biennial case and demographic detail available for the 2023–2024 period.",
     "crumbs": [
       "Appendices",
-      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Draft: Data Documentation</span>"
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Data Documentation</span>"
     ]
   },
   {
     "objectID": "draft-data-doc.html#where-the-data-was-collected",
     "href": "draft-data-doc.html#where-the-data-was-collected",
-    "title": "Appendix A — Draft: Data Documentation",
+    "title": "Appendix A — Data Documentation",
     "section": "A.5 Where the data was collected",
-    "text": "A.5 Where the data was collected\nData are collected from employers across all 50 states through a sample of approximately 200,000 establishments, providing nationally representative estimates.",
+    "text": "A.5 Where the data was collected\nData is collected from employers across all 50 states through a sample of approximately 200,000 establishments, providing nationally representative estimates.",
     "crumbs": [
       "Appendices",
-      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Draft: Data Documentation</span>"
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Data Documentation</span>"
     ]
   },
   {
     "objectID": "draft-data-doc.html#how-the-data-was-collected",
     "href": "draft-data-doc.html#how-the-data-was-collected",
-    "title": "Appendix A — Draft: Data Documentation",
+    "title": "Appendix A — Data Documentation",
     "section": "A.6 How the data was collected",
-    "text": "A.6 How the data was collected\nEmployers are legally required under OSHA regulations to log all recordable work-related injuries and illnesses on OSHA Form 300 and to submit summary information annually. The BLS uses these records, collected through the Survey of Occupational Injuries and Illnesses (SOII), to produce national and state-level estimates.",
+    "text": "A.6 How the data was collected\nEmployers are legally required under OSHA regulations to log all recordable work related injuries and illnesses on OSHA Form 300 and to submit summary information annually. The BLS uses these records, collected through the Survey of Occupational Injuries and Illnesses (SOII), to produce national and state level estimates.",
     "crumbs": [
       "Appendices",
-      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Draft: Data Documentation</span>"
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Data Documentation</span>"
     ]
   },
   {
     "objectID": "draft-data-doc.html#structure-of-the-data",
     "href": "draft-data-doc.html#structure-of-the-data",
-    "title": "Appendix A — Draft: Data Documentation",
+    "title": "Appendix A — Data Documentation",
     "section": "A.7 Structure of the data",
-    "text": "A.7 Structure of the data\nThe data are organized into summary tables reporting injury and illness rates by detailed industry, and case and demographic tables reporting rates by event type, worker characteristics, and other case circumstances. Industry classifications follow the North American Industry Classification System (NAICS) and occupations are coded using the Standard Occupational Classification (SOC) system.",
+    "text": "A.7 Structure of the data\nThe data is organized into summary tables reporting injury and illness rates by detailed industry, and case and demographic tables reporting rates by event type, worker characteristics, and other case circumstances.\nData used in this analysis come from the BLS Survey of Occupational Injuries and Illnesses (SOII), accessed through the Injuries, Illnesses, and Fatalities (IIF) database (“IIF Databases : U.s. Bureau of Labor Statistics” n.d.). Two tables are used: Table 1 reports total recordable case (TRC) rates, defined as the count of all recordable workplace injuries and illnesses per 100 full-time equivalent (FTE) workers by industry for 2024. Table R75 reports days away from work (DAFW) fall rates—injuries serious enough to require at least one day off work—per 10,000 FTE workers by industry division for 2023–2024.\nIndustries are classified using the North American Industry Classification System (NAICS) and are further grouped as office or non-office based on whether work is primarily desk-based.",
     "crumbs": [
       "Appendices",
-      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Draft: Data Documentation</span>"
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Data Documentation</span>"
     ]
   },
   {
     "objectID": "draft-data-doc.html#formatting-decisions",
     "href": "draft-data-doc.html#formatting-decisions",
-    "title": "Appendix A — Draft: Data Documentation",
+    "title": "Appendix A — Data Documentation",
     "section": "A.8 Formatting decisions",
     "text": "A.8 Formatting decisions\nIncidence rates in summary tables are expressed per 100 full-time equivalent (FTE) workers, while rates in the detailed case and demographic tables are expressed per 10,000 FTE workers. Cells based on fewer than 15 cases are suppressed and left blank to protect confidentiality and ensure reliability.",
     "crumbs": [
       "Appendices",
-      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Draft: Data Documentation</span>"
-    ]
-  },
-  {
-    "objectID": "draft-data-doc.html#data-validationquality-control",
-    "href": "draft-data-doc.html#data-validationquality-control",
-    "title": "Appendix A — “Draft: Data Documentation”",
-    "section": "A.9 Data validation/quality control:",
-    "text": "A.9 Data validation/quality control:\nBLS runs consistency checks and publishes error estimates. Under reporting or failing to report by employers is a known limitation.",
-    "crumbs": [
-      "Appendices",
-      "<span class='chapter-number'>A</span>  <span class='chapter-title'>\"Draft: Data Documentation\"</span>"
-    ]
-  },
-  {
-    "objectID": "draft-data-doc.html#license",
-    "href": "draft-data-doc.html#license",
-    "title": "Appendix A — Draft: Data Documentation",
-    "section": "A.10 License",
-    "text": "A.10 License\nThe data are produced by the U.S. federal government and are in the public domain, available at no cost through the BLS IIF database (“IIF Databases : U.s. Bureau of Labor Statistics” n.d.).",
-    "crumbs": [
-      "Appendices",
-      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Draft: Data Documentation</span>"
-    ]
-  },
-  {
-    "objectID": "draft-data-doc.html#suggested-analysis-methods",
-    "href": "draft-data-doc.html#suggested-analysis-methods",
-    "title": "Appendix A — Draft: Data Documentation",
-    "section": "A.11 Suggested analysis methods",
-    "text": "A.11 Suggested analysis methods\nThe primary analysis in this report compares same-level fall rates between office and non-office industries. Days away from work are used as a proxy for injury severity, and a two-sample Welch t-test is used to assess whether differences between groups are statistically significant.",
-    "crumbs": [
-      "Appendices",
-      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Draft: Data Documentation</span>"
-    ]
-  },
-  {
-    "objectID": "draft-data-doc.html#measurement-instruments",
-    "href": "draft-data-doc.html#measurement-instruments",
-    "title": "Appendix A — Draft: Data Documentation",
-    "section": "A.12 Measurement instruments",
-    "text": "A.12 Measurement instruments\nData are recorded using OSHA Forms 300, 300A, and 301. The BLS uses its Occupational Injury and Illness Classification System (OIICS) to code case circumstances, and industries and occupations are classified using NAICS and SOC respectively.\n\n\n\n\n“IIF Databases : U.s. Bureau of Labor Statistics.” n.d. Accessed February 17, 2026. https://www.bls.gov/iif/data.htm.",
-    "crumbs": [
-      "Appendices",
-      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Draft: Data Documentation</span>"
-    ]
-  },
-  {
-    "objectID": "draft-results.html#data",
-    "href": "draft-results.html#data",
-    "title": "Appendix B — Draft: Results",
-    "section": "",
-    "text": "Note\n\n\n\nThis should be in the data section, not the results section, but it looks good!\nMake sure you add a date – the release date? – to your bibliography entry, and make sure the other fields are filled in. Zotero doesn’t always catch everything perfectly.",
-    "crumbs": [
-      "Appendices",
-      "<span class='chapter-number'>B</span>  <span class='chapter-title'>Draft: Results</span>"
-    ]
-  },
-  {
-    "objectID": "draft-results.html#analysis",
-    "href": "draft-results.html#analysis",
-    "title": "Appendix B — Draft: Results",
-    "section": "B.2 Analysis",
-    "text": "B.2 Analysis\nTo formally evaluate the safety officer’s claim, I compared same level fall DAFW rates between office and non office industries using a two sample t-test. This test is appropriate here because we are comparing the means of two independent groups and do not assume equal variances between them. The goal is to determine whether any observed difference in fall rates between office and non office industries is statistically significant or likely due to chance. in their same level fall DAFW rates.\nHo: Mean same level fall rate is equal between office and Non Office industries.\nHa: Mean same level fall rate differs between the two groups.\n\n\n\n\nTable B.2: Two-sample t-test results for same level fall DAFW rates (per 10,000 FTE) by group.\n\n\n\n\n\n\n\nGroup\nMean\nSD\nt\ndf\np-value\n95% CI\n\n\n\n\nt\nOffice\n6.5\n1.3\n-3.64\n3.5\n0.027\n[-16.64, -1.81]\n\n\n\nNon Office\n15.7\n4.8\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe results show a statistically significant difference in same level fall rates between office and non-office industries t = -3.64, p = 0.027, and a 95% CI [−16.64, −1.81]. Office industries averaged 6.5 same level fall cases per 10,000 FTE workers, compared to 15.7 for non office industries. These findings do not support the safety officer’s claim that office workers experience significantly fewer same level fall injuries than their non office counterparts.\n\n\n\n\n\n\n\n\nFigure B.1: Same Level Fall DAFW Rates By Industry (per 10,000 FTE). Source: BLS SOII Table R75 (“IIF Databases : U.s. Bureau of Labor Statistics” n.d.).\n\n\n\n\n\n\n\n\n\n“IIF Databases : U.s. Bureau of Labor Statistics.” n.d. Accessed February 17, 2026. https://www.bls.gov/iif/data.htm.",
-    "crumbs": [
-      "Appendices",
-      "<span class='chapter-number'>B</span>  <span class='chapter-title'>Draft: Results</span>"
-    ]
-  },
-  {
-    "objectID": "draft-intro-conclusions.html",
-    "href": "draft-intro-conclusions.html",
-    "title": "Appendix C — Draft: Intro/Conclusions",
-    "section": "",
-    "text": "C.1 Introduction\nOur company operates across both office and industrial environments, and ensuring the safety of all employees is a shared priority. This report was prepared in response to a concern raised by our safety officer regarding fall injury risk among office workers. Specifically, a recent article suggested that office workers are more likely to be injured through falls than workers in other environments, raising the question of whether our company should implement stronger safety policies for office staff. Using data from the BLS (Bureau of Labor Statistics) Survey of Occupational Injuries and Illnesses (SOII) (“IIF Databases : U.s. Bureau of Labor Statistics” n.d.), I compared overall injury rates and same level fall rates across office and non office industries to evaluate this claim. Risk is assessed on two factors: the probability of injury occurring and the severity of that injury as measured by days away from work (DAFW).\nThe report proceeds as follows. The Data Documentation section describes the data source, key variables, and industry classifications used. The Results section presents descriptive statistics by industry, a comparison of same level fall rates between office and non office industries, and the results of a two sample t test. The Conclusion summarizes my findings and provides a recommendation to the safety officer on whether additional office safety policies are justified.",
-    "crumbs": [
-      "Appendices",
-      "<span class='chapter-number'>C</span>  <span class='chapter-title'>Draft: Intro/Conclusions</span>"
-    ]
-  },
-  {
-    "objectID": "draft-intro-conclusions.html#conclusion",
-    "href": "draft-intro-conclusions.html#conclusion",
-    "title": "Appendix C — Draft: Intro/Conclusions",
-    "section": "C.2 Conclusion",
-    "text": "C.2 Conclusion\nMy analysis found that office workers experience significantly fewer same level fall injuries than non office workers (t(3.8) = -3.64, p = 0.027), with office industries averaging 6.5 fall cases per 10,000 FTE workers compared to 15.7 for non office industries. Overall injury rates follow the same pattern, with office industries reporting TRC rates well below non office industries and the private industry average. These results are consistent with what one would expect given the physical demands of non office work, and they contradict the claim in the article that prompted this investigation.\nThere are several limitations to consider. The t test was conducted on only seven industry divisions, three office and four non office, resulting in low statistical power. While the result is statistically significant, the small number of industries means findings should be interpreted with some caution. The SOII data also rely on employer reported injuries, and underreporting is a known limitation, though I have no strong reason to believe underreporting differs drastically between office and non office settings in a way that would reverse these findings. It is also worth noting that classifying industries as simply office or non office is subjective. Many industries, including our own company, contain both types of workers. Future analysis using occupation level data would allow for a more precise comparison.\nBased on my findings, I recommend that our safety officer focus our resources on the company’s industrial and manufacturing operations, where injury risk is substantially higher. This does not mean office safety should be neglected, basic precautions such as cable management, appropriate lighting, and non slip flooring remain imperative for safety. But a major policy change for office workers is not justified by the evidence. Going forward, it may be worth looking into whether specific office roles such as facilities or mailroom staff carry elevated risk compared to fully desk based employees, and how the shift of hybrid work might affect injury patterns over time.\n\n\n\n\n“IIF Databases : U.s. Bureau of Labor Statistics.” n.d. Accessed February 17, 2026. https://www.bls.gov/iif/data.htm.",
-    "crumbs": [
-      "Appendices",
-      "<span class='chapter-number'>C</span>  <span class='chapter-title'>Draft: Intro/Conclusions</span>"
-    ]
-  },
-  {
-    "objectID": "draft-exec-summary.html",
-    "href": "draft-exec-summary.html",
-    "title": "Appendix D — Draft: Executive Summary",
-    "section": "",
-    "text": "D.0.0.1 Overview\nThis report evaluates whether office workers at our company face greater fall injury risk than non office workers, and whether stronger office safety policies are warranted. The analysis was prompted by a concern raised by our safety officer following a recent article suggesting office workers are more prone to fall injuries than workers in other environments. Using data from the BLS Survey of Occupational Injuries and Illnesses (SOII) (“IIF Databases : U.s. Bureau of Labor Statistics” n.d.), overall injury rates and same level fall rates were compared across office and non office industries.\n\n\nD.0.0.2 Key Findings\nOffice industries averaged 6.5 same level fall cases per 10,000 FTE workers, compared to 15.7 for non office industries which is a statistically significant difference (t(3.8) = 3.64, p = 0.027). Overall injury rates follow the same pattern. Office industries reported total recordable case (TRC) rates well below non office industries and the private industry average. The data does not support the claim that office workers are at greater fall risk than non office workers.\n\n\nD.0.0.3 Recommendations\nBased on these findings, it is recommended that the safety officer focus resources toward the company’s industrial and manufacturing operations, where injury risk is substantially higher. A major policy change for office workers is not justified by the evidence. Basic office safety precautions, such as cable management, adequate lighting, and non slip flooring, remain key but do not require significant new investment.\n\n\nD.0.0.4 Next Steps\nFuture analysis should examine whether specific office roles, such as facilities or mailroom staff, carry elevated injury risk compared to fully desk based employees. IF the company’s workforce shifts toward hybrid and remote work arrangements, it will be worth investigating how injury patterns change over time. Occupation level data from the SOII would allow for a more in depth analysis than the industry level comparison presented here.\n\n\n\n\n“IIF Databases : U.s. Bureau of Labor Statistics.” n.d. Accessed February 17, 2026. https://www.bls.gov/iif/data.htm.",
-    "crumbs": [
-      "Appendices",
-      "<span class='chapter-number'>D</span>  <span class='chapter-title'>Draft: Executive Summary</span>"
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Data Documentation</span>"
     ]
   },
   {
     "objectID": "draft-data-doc.html#data-validation-and-quality-control",
     "href": "draft-data-doc.html#data-validation-and-quality-control",
-    "title": "Appendix A — Draft: Data Documentation",
+    "title": "Appendix A — Data Documentation",
     "section": "A.9 Data validation and quality control",
-    "text": "A.9 Data validation and quality control\nThe BLS runs consistency checks on all submitted data and publishes error estimates alongside its tables. A known limitation of the SOII is underreporting — some employers may fail to record or report all qualifying injuries and illnesses. While the magnitude of underreporting is difficult to quantify, BLS-funded research suggests it is a real concern. However, there is no strong reason to believe underreporting differs systematically between office and non-office industries in a way that would affect the conclusions of this report.",
+    "text": "A.9 Data validation and quality control\nThe BLS runs consistency checks on all submitted data and publishes error estimates alongside its tables. A known limitation of the SOII is underreporting; some employers may fail to record or report all qualifying injuries and illnesses. While the magnitude of underreporting is difficult to quantify, BLS-funded research suggests it is a real concern. However, there is no strong reason to believe underreporting differs between office and non-office industries in a way that would affect the conclusions of this report.",
     "crumbs": [
       "Appendices",
-      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Draft: Data Documentation</span>"
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Data Documentation</span>"
+    ]
+  },
+  {
+    "objectID": "draft-data-doc.html#license",
+    "href": "draft-data-doc.html#license",
+    "title": "Appendix A — Data Documentation",
+    "section": "A.10 License",
+    "text": "A.10 License\nThe data is produced by the U.S. federal government and is in the public domain, available at no cost through the BLS IIF database (“IIF Databases : U.s. Bureau of Labor Statistics” n.d.).",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Data Documentation</span>"
+    ]
+  },
+  {
+    "objectID": "draft-data-doc.html#suggested-analysis-methods",
+    "href": "draft-data-doc.html#suggested-analysis-methods",
+    "title": "Appendix A — Data Documentation",
+    "section": "A.11 Suggested analysis methods",
+    "text": "A.11 Suggested analysis methods\nThe primary analysis in this report compares same-level fall rates between office and non-office industries. Days away from work are used as a benchmark for injury severity, and a two-sample t-test is used to assess whether differences between groups are statistically significant.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Data Documentation</span>"
+    ]
+  },
+  {
+    "objectID": "draft-data-doc.html#measurement-instruments",
+    "href": "draft-data-doc.html#measurement-instruments",
+    "title": "Appendix A — Data Documentation",
+    "section": "A.12 Measurement instruments",
+    "text": "A.12 Measurement instruments\nData is recorded using OSHA Forms 300, 300A, and 301. The BLS uses its Occupational Injury and Illness Classification System (OIICS) to code case circumstances, and industries and occupations are classified using NAICS and SOC, respectively.\n\n\n\n\n“IIF Databases : U.s. Bureau of Labor Statistics.” n.d. Accessed February 17, 2026. https://www.bls.gov/iif/data.htm.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Data Documentation</span>"
+    ]
+  },
+  {
+    "objectID": "draft-results.html",
+    "href": "draft-results.html",
+    "title": "Appendix B — Results",
+    "section": "",
+    "text": "C Draft: Results",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>B</span>  <span class='chapter-title'>Results</span>"
+    ]
+  },
+  {
+    "objectID": "draft-results.html#descriptive-statistics",
+    "href": "draft-results.html#descriptive-statistics",
+    "title": "Appendix B — Results",
+    "section": "C.1 Descriptive Statistics",
+    "text": "C.1 Descriptive Statistics\nTable C.1 shows overall injury rates and same-level fall rates for each industry sector. Office industries have noticeably lower rates across both measures compared to non-office industries.\n\n\n\n\nTable C.1: TRC rates (per 100 FTE) and same-level fall DAFW rates (per 10,000 FTE) by industry. Source: BLS SOII (“IIF Databases : U.s. Bureau of Labor Statistics” n.d.).\n\n\n\n\n\n\nIndustry\nCategory\nTRC Rate\nSame-Level Fall DAFW Rate\n\n\n\n\nFinance and Insurance\nOffice\n0.3\n5.4\n\n\nInformation\nOffice\n0.7\n7.9\n\n\nProfessional & Business Services\nOffice\n1.0\n6.2\n\n\nConstruction\nNon-Office\n2.2\n11.0\n\n\nManufacturing\nNon-Office\n2.7\n12.1\n\n\nNatural Resources & Mining\nNon-Office\n2.8\n19.6\n\n\nTrade, Transportation & Utilities\nNon-Office\n3.1\n20.2",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>B</span>  <span class='chapter-title'>Results</span>"
+    ]
+  },
+  {
+    "objectID": "draft-results.html#analysis",
+    "href": "draft-results.html#analysis",
+    "title": "Appendix B — Results",
+    "section": "C.2 Analysis",
+    "text": "C.2 Analysis\nTo formally evaluate the safety officer’s claim, same-level fall DAFW rates were compared between office and non-office industries using a two-sample Welch t-test. This test is appropriate here because we are comparing the means of two independent groups and do not assume equal variances between them. The goal is to determine whether any observed difference in fall rates between office and non-office industries is statistically significant or likely due to chance.\nHo: Mean same-level fall rate is equal between office and non-office industries.\nHa: Mean same-level fall rate differs between the two groups.\n\n\n\n\nTable C.2: Two-sample Welch t-test results for same-level fall DAFW rates (per 10,000 FTE) by group.\n\n\n\n\n\n\n\nGroup\nMean\nSD\nt\ndf\np-value\n95% CI\n\n\n\n\nt\nOffice\n6.5\n1.3\n-3.64\n3.5\n0.027\n[-16.64, -1.81]\n\n\n\nNon-Office\n15.7\n4.8\nNA\nNA\nNA\nNA\n\n\n\n\n\n\n\n\n\n\nThe results show a statistically significant difference in same-level fall rates between office and non-office industries (t(3.5) = -3.64, p = 0.027, 95% CI [-16.64, -1.81]). Office industries averaged 6.5 same-level fall cases per 10,000 FTE workers, compared to 15.7 for non-office industries. These findings do not support the safety officer’s claim — office workers experience significantly fewer same-level fall injuries than their non-office counterparts.\n\n\n\n\n\n\n\n\nFigure C.1: Same-level fall DAFW rates by industry (per 10,000 FTE). Source: BLS SOII Table R75 (“IIF Databases : U.s. Bureau of Labor Statistics” n.d.).\n\n\n\n\n\n\n\n\n\n“IIF Databases : U.s. Bureau of Labor Statistics.” n.d. Accessed February 17, 2026. https://www.bls.gov/iif/data.htm.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>B</span>  <span class='chapter-title'>Results</span>"
+    ]
+  },
+  {
+    "objectID": "draft-exec-summary.html",
+    "href": "draft-exec-summary.html",
+    "title": "Appendix D — Executive Summary",
+    "section": "",
+    "text": "D.0.0.1 Overview\nThis report evaluates whether office workers at Acme Corp face greater fall injury risk than non-office workers, and whether stronger office safety policies are warranted. The analysis was prompted by a concern raised by our safety officer following a recent article suggesting office workers are more prone to fall injuries than workers in other environments. Using data from the BLS Survey of Occupational Injuries and Illnesses (SOII) (“IIF Databases : U.s. Bureau of Labor Statistics” n.d.), overall injury rates and same-level fall rates were compared across office and non-office industries.\n\n\nD.0.0.2 Key Findings\nOffice industries averaged 6.5 same-level fall cases per 10,000 FTE workers, compared to 15.7 for non-office industries — a statistically significant difference (t(3.5) = -3.64, p = 0.027). Overall injury rates follow the same pattern. Office industries reported total recordable case (TRC) rates well below non-office industries and the private industry average. The data do not support the claim that office workers are at greater fall risk than non-office workers.\n\n\nD.0.0.3 Recommendations\nBased on these findings, it is recommended that the safety officer direct resources toward the company’s industrial and manufacturing operations, where injury risk is substantially higher. A major policy change for office workers is not justified by the evidence. Basic office safety precautions, such as cable management, adequate lighting, and non-slip flooring, remain worthwhile but do not require significant new investment.\n\n\nD.0.0.4 Next Steps\nFuture analysis should examine whether specific office roles, such as facilities or mailroom staff, carry elevated injury risk compared to fully desk-based employees. If the company’s workforce shifts toward hybrid and remote work arrangements, it will be worth investigating how injury patterns change over time. Occupation-level data from the SOII would allow for a more in-depth analysis than the industry-level comparison presented here.\n\n\n\n\n“IIF Databases : U.s. Bureau of Labor Statistics.” n.d. Accessed February 17, 2026. https://www.bls.gov/iif/data.htm.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>D</span>  <span class='chapter-title'>Draft: Executive Summary</span>"
     ]
   }
 ]

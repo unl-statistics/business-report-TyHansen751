@@ -1,4 +1,4 @@
-# Draft: Data Documentation
+# Data Documentation {#sec-data-doc}
 
 ## Who collected the data
 The U.S. Bureau of Labor Statistics (BLS), in cooperation with state labor 
@@ -79,3 +79,4 @@ Data is recorded using OSHA Forms 300, 300A, and 301. The BLS uses its
 Occupational Injury and Illness Classification System (OIICS) to code case 
 circumstances, and industries and occupations are classified using NAICS 
 and SOC, respectively.
+
