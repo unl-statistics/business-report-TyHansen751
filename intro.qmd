@@ -1,8 +1,5 @@
----
-title: "Introduction"
----
+## Introduction 
 
-## Introduction
 ABC Corp operates across both office and industrial environments, and ensuring the safety
 of all employees is a shared priority. This report was prepared in response to a concern
 raised by our safety officer regarding fall injury risk among office workers. Specifically,

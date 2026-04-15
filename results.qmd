@@ -1,8 +1,4 @@
----
-title: "Results"
----
-
-# Draft: Results {#sec-results}
+# Results {#sec-results}
 
 ```{r}
 #| label: setup

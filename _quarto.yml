@@ -10,12 +10,16 @@ book:
   chapters:
     - index.qmd
     - intro.qmd
+    - data-doc.qmd
+    - results.qmd
     - summary.qmd
     - references.qmd
   appendices:
-    - draft-data-doc.qmd
-    - draft-results.qmd
-    - draft-exec-summary.qmd
+  - draft-exec-summary.qmd
+  - data-doc.qmd
+  - results.qmd
+  - references.qmd
+
 
 bibliography: references.bib
 

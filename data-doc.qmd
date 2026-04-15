@@ -1,37 +1,31 @@
-# Data Documentation {#sec-data-doc}
+# Data Documentation and Methodology {#sec-data-doc}
 
-## Who collected the data
+## Data Documentation
 The U.S. Bureau of Labor Statistics (BLS), in cooperation with state labor 
 agencies, collects and publishes the data used in this report [@IIFDatabasesUS].
 
-## Why the data was collected
 The BLS collects this data to track nonfatal workplace injuries and illnesses at
 the national level and to help employers, policymakers, and researchers 
 identify safety trends and allocate resources appropriately.
 
-## What the data is about
 The data covers work-related injuries, illnesses, and fatalities across private 
 industry and state and local government. This includes rates by industry, injury 
 type, event or exposure, and severity as measured by days away from work.
 
-## When the data was collected
 The BLS has collected workplace injury and illness data annually since 1972. 
 The most recent summary data used in this report cover reference year 2024, with
 biennial case and demographic detail available for the 2023–2024 period.
 
-## Where the data was collected
 Data is collected from employers across all 50 states through a sample of
 approximately 200,000 establishments, providing nationally representative 
 estimates.
 
-## How the data was collected
 Employers are legally required under OSHA regulations to log all recordable 
 work related injuries and illnesses on OSHA Form 300 and to submit summary 
 information annually. The BLS uses these records, collected through the Survey 
 of Occupational Injuries and Illnesses (SOII), to produce national and 
 state level estimates.
 
-## Structure of the data
 The data is organized into summary tables reporting injury and illness rates 
 by detailed industry, and case and demographic tables reporting rates by event 
 type, worker characteristics, and other case circumstances.
@@ -49,13 +43,11 @@ Industries are classified using the North American Industry Classification
 System (NAICS) and are further grouped as office or non-office based on 
 whether work is primarily desk-based.
 
-## Formatting decisions
 Incidence rates in summary tables are expressed per 100 full-time equivalent 
 (FTE) workers, while rates in the detailed case and demographic tables are 
 expressed per 10,000 FTE workers. Cells based on fewer than 15 cases are 
 suppressed and left blank to protect confidentiality and ensure reliability.
 
-## Data validation and quality control
 The BLS runs consistency checks on all submitted data and publishes error 
 estimates alongside its tables. A known limitation of the SOII is underreporting;
 some employers may fail to record or report all qualifying injuries and illnesses.
@@ -64,17 +56,15 @@ research suggests it is a real concern. However, there is no strong reason to
 believe underreporting differs between office and non-office industries in a 
 way that would affect the conclusions of this report.
 
-## License
 The data is produced by the U.S. federal government and is in the public
 domain, available at no cost through the BLS IIF database [@IIFDatabasesUS].
 
-## Suggested analysis methods
-The primary analysis in this report compares same-level fall rates between 
-office and non-office industries. Days away from work are used as a benchmark 
-for injury severity, and a two-sample t-test is used to assess whether 
+## Methodology
+The primary analysis in this report compares same level fall rates between 
+office and non office industries. Days away from work are used as a benchmark 
+for injury severity, and a two sample t-test is used to assess whether 
 differences between groups are statistically significant.
 
-## Measurement instruments
 Data is recorded using OSHA Forms 300, 300A, and 301. The BLS uses its 
 Occupational Injury and Illness Classification System (OIICS) to code case 
 circumstances, and industries and occupations are classified using NAICS 
