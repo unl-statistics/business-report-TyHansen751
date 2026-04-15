@@ -3,8 +3,7 @@ title: "Introduction"
 ---
 
 ## Introduction
-
-Acme Corp operates across both office and industrial environments, and ensuring the safety
+ABC Corp operates across both office and industrial environments, and ensuring the safety
 of all employees is a shared priority. This report was prepared in response to a concern
 raised by our safety officer regarding fall injury risk among office workers. Specifically,
 a recent article suggested that office workers are more likely to be injured through falls
