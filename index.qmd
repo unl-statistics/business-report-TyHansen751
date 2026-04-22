@@ -1,6 +1,6 @@
-# Executive Summary {.unnumbered}
+# Executive Summary
 
-#### Overview
+## Overview
 
 This report evaluates whether office workers at ABC Corp face greater fall injury risk
 than non office workers, and whether stronger office safety policies are warranted. The
@@ -10,7 +10,7 @@ environments. Using data from the BLS Survey of Occupational Injuries and Illnes
 [@IIFDatabasesUS], overall injury rates and same level fall rates were compared across
 office and non office industries.
 
-#### Key Findings
+## Key Findings
 
 Office industries averaged 6.5 same level fall cases per 10,000 FTE workers, compared to
 15.7 for non office industries, a statistically significant difference
@@ -19,7 +19,7 @@ industries reported total recordable case (TRC) rates well below non office indu
 and the private industry average. The data does not support the claim that office workers
 are at greater fall risk than non office workers.
 
-#### Recommendations
+## Recommendations
 
 Based on these findings, it is recommended that the safety officer direct resources toward
 the company's industrial and manufacturing operations, where injury risk is substantially
@@ -27,7 +27,7 @@ higher. A major policy change for office workers is not justified by the evidenc
 office safety precautions, such as cable management, adequate lighting, and non slip
 flooring, remain worthwhile but do not require significant new investment.
 
-#### Next Steps
+## Next Steps
 
 Future analysis should examine whether specific office roles, such as facilities or
 mailroom staff, carry elevated injury risk compared to fully desk based employees. If the
