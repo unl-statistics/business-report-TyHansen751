@@ -12,6 +12,7 @@ non-office industries to evaluate this claim. Risk is assessed on two factors: t
 probability of injury occurring and the severity of that injury as measured by days away
 from work (DAFW).
 
+![](Slips-Trips-and-Falls-Workplace-Injuries-in-New-York.jpg.webp)
 The report proceeds as follows. The Data Documentation section (@sec-data-doc) describes the
 data source, key variables, and industry classifications used. The Results section
 (@sec-results) presents descriptive statistics by industry, a comparison of same-level fall
