@@ -1,0 +1,186 @@
+---
+title: "Office vs. Non-Office Fall Injuries"
+subtitle: "Are Stronger Office Safety Policies Warranted?"
+author: "Ty Hansen"
+format: revealjs
+bibliography: references.bib
+---
+
+## Background
+
+- Acme Corp operates across both **office** and **industrial** environments
+- Our safety officer raised concern after a recent article claimed office workers
+  are more likely to be injured through falls than non-office workers
+- **Question:** Should Acme Corp implement stronger safety policies for office staff?
+
+## Data
+
+Data come from the BLS Survey of Occupational Injuries and Illnesses (SOII) [@IIFDatabasesUS]
+
+Two tables used:
+
+- **Table 1** — Total recordable case (TRC) rates by industry, 2024
+  - Per 100 full-time equivalent (FTE) workers
+- **Table R75** — Days-away-from-work (DAFW) fall rates by industry division, 2023–2024
+  - Per 10,000 FTE workers
+
+Industries classified as **office** or **non-office** based on whether work is primarily
+desk-based (NAICS)
+
+## Industry Classification
+
+| Office | Non-Office |
+|---|---|
+| Finance and Insurance | Construction |
+| Information | Manufacturing |
+| Professional & Business Services | Natural Resources & Mining |
+| | Trade, Transportation & Utilities |
+
+## Methods
+
+- Compared same-level fall DAFW rates between office and non-office industries
+- Used a **two-sample Welch t-test** to determine whether differences are statistically
+  significant
+- Also compared overall TRC rates across groups
+
+**H₀:** Mean same-level fall rate is equal between office and non-office industries  
+**H₁:** Mean same-level fall rate differs between the two groups
+
+## Overall Injury Rates
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+
+library(readxl)
+library(knitr)
+library(kableExtra)
+
+t1 <- read_excel("Table1.xlsx", skip = 5, col_names = FALSE)
+colnames(t1) <- c("Industry", "NAICS", "TRC", "DART", "DAFW", "DJTR", "Other")
+t1$TRC <- suppressWarnings(as.numeric(t1$TRC))
+
+r75 <- read_excel("TableR75.xlsx", skip = 3, col_names = FALSE)
+colnames(r75)[1:14] <- c("Event", "Code", "CaseType", "Total",
+                          "GoodsTotal", "NatRes", "Construction",
+                          "Manufacturing", "ServiceTotal",
+                          "TradeTransUtil", "Information",
+                          "Financial", "ProfBusiness", "EdHealth")
+
+fall_row <- r75[r75$Event == "Slip, trip, stumble or fall on same level" &
+                r75$CaseType == "DAFW", ]
+
+industry_data <- data.frame(
+  Industry = c(
+    "Finance and Insurance", "Information",
+    "Professional & Business Services",
+    "Construction", "Manufacturing",
+    "Natural Resources & Mining",
+    "Trade, Transportation & Utilities"
+  ),
+  Category = c(
+    "Office", "Office", "Office",
+    "Non-Office", "Non-Office", "Non-Office", "Non-Office"
+  ),
+  TRC_Rate = c(
+    t1$TRC[t1$NAICS == "52" & !is.na(t1$NAICS)],
+    t1$TRC[t1$NAICS == "51" & !is.na(t1$NAICS)],
+    t1$TRC[trimws(t1$Industry) == "Professional and business services"][1],
+    t1$TRC[t1$NAICS == "23" & !is.na(t1$NAICS)],
+    t1$TRC[t1$NAICS == "31-33" & !is.na(t1$NAICS)],
+    t1$TRC[grepl("Natural resources and mining", t1$Industry)][1],
+    t1$TRC[grepl("Trade, transportation, and utilities", t1$Industry)][1]
+  ),
+  Fall_Rate = as.numeric(c(
+    fall_row$Financial, fall_row$Information, fall_row$ProfBusiness,
+    fall_row$Construction, fall_row$Manufacturing,
+    fall_row$NatRes, fall_row$TradeTransUtil
+  ))
+)
+
+office    <- industry_data$Fall_Rate[industry_data$Category == "Office"]
+nonoffice <- industry_data$Fall_Rate[industry_data$Category == "Non-Office"]
+result    <- t.test(office, nonoffice, var.equal = FALSE)
+
+kable(industry_data,
+      col.names = c("Industry", "Category", "TRC Rate", "Same-Level Fall DAFW Rate"),
+      digits = 1, align = c("l","c","c","c")) |>
+  kable_styling(bootstrap_options = c("striped","condensed"), full_width = TRUE,
+                font_size = 18) |>
+  row_spec(1:3, background = "#add8e6") |>
+  row_spec(4:7, background = "#fa8072")
+```
+
+## Fall Rates by Industry
+
+```{r}
+#| echo: false
+
+par(mar = c(4, 12, 2, 2))
+
+barplot(industry_data$Fall_Rate,
+        names.arg = industry_data$Industry,
+        horiz = TRUE,
+        las = 1,
+        xlab = "Same-Level Fall DAFW Rate (per 10,000 FTE)",
+        col = ifelse(industry_data$Category == "Office", "#add8e6", "#fa8072"),
+        cex.names = 0.7)
+
+legend("bottomright",
+       legend = c("Office", "Non-Office"),
+       fill = c("#add8e6", "#fa8072"))
+```
+
+## Results
+
+```{r}
+#| echo: false
+
+data.frame(
+  Group   = c("Office", "Non-Office"),
+  Mean    = c(round(mean(office), 1),     round(mean(nonoffice), 1)),
+  SD      = c(round(sd(office), 1),       round(sd(nonoffice), 1)),
+  t       = c(round(result$statistic, 2), NA),
+  df      = c(round(result$parameter, 1), NA),
+  p_value = c(round(result$p.value, 3),   NA),
+  CI      = c(paste0("[", round(result$conf.int[1], 2), ", ",
+                     round(result$conf.int[2], 2), "]"), NA)
+) |>
+  kable(col.names = c("Group", "Mean", "SD", "t", "df", "p-value", "95% CI"),
+        align = c("l","c","c","c","c","c","c"),
+        na = "") |>
+  kable_styling(bootstrap_options = c("striped","condensed"), full_width = TRUE,
+                font_size = 20)
+```
+
+Office industries averaged `r round(mean(office), 1)` same-level fall cases per 10,000
+FTE workers vs. `r round(mean(nonoffice), 1)` for non-office industries —
+a statistically significant difference (p = `r round(result$p.value, 3)`)
+
+## Limitations
+
+- **Low statistical power** — only 7 industry divisions compared
+- **Employer-reported data** — underreporting is a known limitation of SOII
+- **Industry-level classification** — office vs. non-office is a simplification;
+  many industries contain both types of workers
+- Future analysis using **occupation-level data** would allow for a more precise comparison
+
+## Recommendation
+
+::: {.callout-important}
+The data do **not** support implementing stronger fall safety policies for office workers
+:::
+
+- Safety resources should be directed toward **industrial and manufacturing operations**
+  where injury risk is substantially higher
+- Basic office precautions (cable management, lighting, non-slip flooring) remain
+  worthwhile but do not require significant new investment
+- Future work should examine specific office roles and the impact of hybrid work on
+  injury patterns
+
+## Thank You
+
+**Questions?**
+
+Data source: BLS Survey of Occupational Injuries and Illnesses [@IIFDatabasesUS]
