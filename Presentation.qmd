@@ -18,14 +18,13 @@ bibliography: references.bib
 Data comes from the BLS Survey of Occupational Injuries and Illnesses (SOII) [@IIFDatabasesUS]
 
 Two tables used:
-
 - **Table 1** — Total recordable case (TRC) rates by industry, 2024
   - Per 100 full time equivalent (FTE) workers
 - **Table R75** — Days away from work (DAFW) fall rates by industry division, 2023–2024
   - Per 10,000 FTE workers
 
 Industries classified as office or non office based on whether work is primarily
-desk-based (NAICS)
+desk based
 
 ## Industry Classification
 
@@ -162,7 +161,7 @@ a statistically significant difference (p = `r round(result$p.value, 3)`)
 
 - **Low statistical power** — only 7 industry divisions compared
 - **Employer-reported data** — underreporting is a known limitation of SOII
-- **Industry-level classification** — office vs. non office is a simplification;
+- **Industry level classification** — office vs. non office is a simplification;
   many industries contain both types of workers
 - Future analysis using **occupation level data** would allow for a more precise comparison
 
