@@ -50,7 +50,7 @@ should be interpreted with some caution. The SOII data also rely on employer-rep
 injuries, and underreporting is a known limitation, though there is no strong reason to
 believe underreporting differs systematically between office and non-office settings in a
 way that would reverse these findings. It is also worth noting that classifying industries
-as simply office or non-office is a simplification — many industries, including Acme Corp
+as simply office or non-office is a simplification — many industries, including ABC Corp
 itself, contain both types of workers. Future analysis using occupation-level data would
 allow for a more precise comparison.
 

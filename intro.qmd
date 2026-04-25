@@ -4,7 +4,7 @@ ABC Corp operates across both office and industrial environments, and ensuring t
 of all employees is a shared priority. This report was prepared in response to a concern
 raised by our safety officer regarding fall injury risk among office workers. Specifically,
 a recent article suggested that office workers are more likely to be injured through falls
-than workers in other environments, raising the question of whether Acme Corp should
+than workers in other environments, raising the question of whether ABC Corp should
 implement stronger safety policies for office staff. Using data from the BLS (Bureau of
 Labor Statistics) Survey of Occupational Injuries and Illnesses (SOII) [@IIFDatabasesUS],
 this report compares overall injury rates and same-level fall rates across office and

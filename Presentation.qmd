@@ -11,7 +11,7 @@ bibliography: references.bib
 - ABC Corp operates across both office and industrial environments
 - Our safety officer raised concern after a recent article claimed office workers
   are more likely to be injured through falls than non office workers
-- **Question:** Should Acme Corp implement stronger safety policies for office staff?
+- **Question:** Should ABC Corp implement stronger safety policies for office staff?
 
 ## Data
 
