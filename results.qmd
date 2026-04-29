@@ -96,7 +96,7 @@ significant or likely due to chance.
 
 ```{r}
 #| label: tbl-ttest
-#| tbl-cap: "Two-sample Welch t-test results for same-level fall DAFW rates (per 10,000 FTE) by group."
+#| tbl-cap: "Two-sample t-test results for same-level fall DAFW rates (per 10,000 FTE) by group."
 #| echo: false
 
 data.frame(

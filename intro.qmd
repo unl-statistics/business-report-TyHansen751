@@ -1,22 +1,33 @@
-## Introduction 
+---
+editor: 
+  markdown: 
+    wrap: 72
+---
 
-ABC Corp operates across both office and industrial environments, and ensuring the safety
-of all employees is a shared priority. This report was prepared in response to a concern
-raised by our safety officer regarding fall injury risk among office workers. Specifically,
-a recent article suggested that office workers are more likely to be injured through falls
-than workers in other environments, raising the question of whether ABC Corp should
-implement stronger safety policies for office staff. Using data from the BLS (Bureau of
-Labor Statistics) Survey of Occupational Injuries and Illnesses (SOII) [@IIFDatabasesUS],
-this report compares overall injury rates and same-level fall rates across office and
-non-office industries to evaluate this claim. Risk is assessed on two factors: the
-probability of injury occurring and the severity of that injury as measured by days away
-from work (DAFW).
+## Introduction
 
-![](Slips-Trips-and-Falls-Workplace-Injuries-in-New-York.jpg.webp)
-The report proceeds as follows. The Data Documentation section (@sec-data-doc) describes the
-data source, key variables, and industry classifications used. The Results section
-(@sec-results) presents descriptive statistics by industry, a comparison of same-level fall
-rates between office and non-office industries, and the results of a two-sample Welch
-t-test. The Conclusion (@sec-conclusion) summarizes the findings and provides a
-recommendation to the safety officer on whether additional office safety policies are
-justified.
+ABC Corp operates across both office and industrial environments, and
+ensuring the safety of all employees is a shared priority. This report
+was prepared in response to a concern raised by our safety officer
+regarding fall injury risk among office workers. Specifically, a recent
+article suggested that office workers are more likely to be injured
+through falls than workers in other environments, raising the question
+of whether ABC Corp should implement stronger safety policies for office
+staff. Using data from the BLS (Bureau of Labor Statistics) Survey of
+Occupational Injuries and Illnesses (SOII) [@IIFDatabasesUS], this
+report compares overall injury rates and same-level fall rates across
+office and non-office industries to evaluate this claim. Risk is
+assessed on two factors: the probability of injury occurring and the
+severity of that injury as measured by days away from work (DAFW).
+
+*Potential Risk*
+
+![](Slips-Trips-and-Falls-Workplace-Injuries-in-New-York.jpg.webp) The
+report proceeds as follows. The Data Documentation section
+(@sec-data-doc) describes the data source, key variables, and industry
+classifications used. The Results section (@sec-results) presents
+descriptive statistics by industry, a comparison of same-level fall
+rates between office and non-office industries, and the results of a
+two-sample Welch t-test. The Conclusion (@sec-conclusion) summarizes the
+findings and provides a recommendation to the safety officer on whether
+additional office safety policies are justified.

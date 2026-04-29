@@ -3,33 +3,23 @@
 ## Data Documentation
 The U.S. Bureau of Labor Statistics (BLS), in cooperation with state labor 
 agencies, collects and publishes the data used in this report [@IIFDatabasesUS].
-
 The BLS collects this data to track nonfatal workplace injuries and illnesses at
 the national level and to help employers, policymakers, and researchers 
-identify safety trends and allocate resources appropriately.
-
-The data covers work-related injuries, illnesses, and fatalities across private 
-industry and state and local government. This includes rates by industry, injury 
-type, event or exposure, and severity as measured by days away from work.
-
+identify safety trends and allocate resources appropriately. The data covers work-related injuries, illnesses, and fatalities across privateindustry and state and local government. This includes rates by industry, injury type, event or exposure, and severity as measured by days away from work.
 The BLS has collected workplace injury and illness data annually since 1972. 
 The most recent summary data used in this report cover reference year 2024, with
 biennial case and demographic detail available for the 2023–2024 period.
-
 Data is collected from employers across all 50 states through a sample of
 approximately 200,000 establishments, providing nationally representative 
 estimates.
-
 Employers are legally required under OSHA regulations to log all recordable 
 work related injuries and illnesses on OSHA Form 300 and to submit summary 
 information annually. The BLS uses these records, collected through the Survey 
 of Occupational Injuries and Illnesses (SOII), to produce national and 
 state level estimates.
-
 The data is organized into summary tables reporting injury and illness rates 
 by detailed industry, and case and demographic tables reporting rates by event 
 type, worker characteristics, and other case circumstances.
-
 Data used in this analysis come from the BLS Survey of Occupational Injuries 
 and Illnesses (SOII), accessed through the Injuries, Illnesses, and 
 Fatalities (IIF) database [@IIFDatabasesUS]. Two tables are used: Table 1 
