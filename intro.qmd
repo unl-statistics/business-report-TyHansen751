@@ -21,7 +21,7 @@ assessed on two factors: the probability of injury occurring and the
 severity of that injury as measured by days away from work (DAFW).
 
 *Potential Risk*
-
+[@SlipsTripsFalls2023]
 ![](Slips-Trips-and-Falls-Workplace-Injuries-in-New-York.jpg.webp) The
 report proceeds as follows. The Data Documentation section
 (@sec-data-doc) describes the data source, key variables, and industry
